@@ -1,0 +1,77 @@
+:root{
+    ## Colors
+
+### Primary
+
+- Blue 200: hsl(193, 38%, 86%)
+- Green 300: hsl(150, 100%, 66%)
+
+### Neutral
+
+- Blue 600: hsl(217, 19%, 38%)
+- Blue 900: hsl(217, 19%, 24%)
+- Blue 950: hsl(218, 23%, 16%)
+}
+
+.manrope-<uniquifier> {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: bold;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'manrope';
+}
+
+main {
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.card-title {
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
+    color: #56e6a7;
+    padding-top: 1rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+    color: hsl(193, 38%, 86%);
+    padding: 0 1rem;
+    font-family: 'manrope', sans-serif;
+    font-style: bold;
+
+}
+
+.card-divider {
+    padding-bottom: 0.5rem;
+
+}
+
+.dice-img {
+    position: relative;
+    top: 1rem;
+    background-color: #56e6a7;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
